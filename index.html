@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+    <link rel="stylesheet" href="file/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Form Input</h2>
+        <form method="POST" action="file/proses.php">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="tanggal_lahir">Tanggal Lahir:</label><br>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+
+            <label for="pekerjaan">Pekerjaan:</label><br>
+            <select id="pekerjaan" name="pekerjaan" required>
+                <option value="Programmer">Programmer</option>
+                <option value="UI/UX Desainer">UI/UX Desainer</option>
+                <option value="App">Mobile App Developer</option>
+            </select><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
